@@ -1,12 +1,6 @@
 # 🔐 Penetration Testing Writeups
 
-This repository contains my hands-on penetration testing writeups based on lab environments and real-world attack scenarios.
-
-I focus on:
-- Enumeration
-- Exploitation
-- Privilege Escalation
-- Active Directory attacks
+🚀 Hands-on labs demonstrating Windows and Active Directory attack chains from enumeration to privilege escalation.
 
 ---
 
@@ -28,9 +22,20 @@ I focus on:
 
 - Network Enumeration (Nmap, SMB)
 - Web Exploitation
-- Windows Privilege Escalation
-- Active Directory Attacks (Kerberoasting, Lateral Movement)
-- Credential Abuse & Post-Exploitation
+- Windows Privilege Escalation (SUID, Misconfigurations)
+- Active Directory Attacks (Kerberoasting, Credential Abuse, Lateral Movement)
+- Post-Exploitation Techniques
+
+---
+
+## 🧰 Tools Used
+
+- Nmap
+- smbclient
+- Impacket (GetUserSPNs, psexec)
+- Hashcat
+- WinPEAS / LinPEAS
+- Netcat
 
 ---
 
@@ -38,10 +43,12 @@ I focus on:
 
 - Offensive Security Certified Professional (OSCP)
 - Focused on Penetration Testing & Red Teaming
+- Strong interest in Active Directory exploitation
 - Actively seeking opportunities in offensive security roles
 
 ---
 
 ## ⚠️ Disclaimer
 
-All writeups are based on lab environments created for educational purposes. No sensitive or restricted content is disclosed.
+All writeups are based on lab environments created for educational purposes.  
+No sensitive or restricted content is disclosed.
