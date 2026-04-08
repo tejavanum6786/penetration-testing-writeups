@@ -21,7 +21,7 @@ The application allowed modification of server-side functionality, which was lev
 
 This resulted in a reverse shell as a low-privileged user.
 
-![Initial Access](./screenshots/initial_access.png)
+![Initial Access](./initial_access.png)
 
 ---
 
@@ -33,7 +33,7 @@ During this phase, a misconfiguration related to Windows Installer policies was 
 Specifically:
 - `AlwaysInstallElevated` was enabled in both HKLM and HKCU
 
-![AlwaysInstallElevated](./screenshots/alwaysinstallelevated.png)
+![AlwaysInstallElevated](./alwaysinstallelevated.png)
 
 ---
 
@@ -42,7 +42,7 @@ The AlwaysInstallElevated configuration allows MSI packages to be executed with 
 
 This misconfiguration was exploited to execute a malicious installer, resulting in a SYSTEM-level shell.
 
-![SYSTEM Access](./screenshots/system.png)
+![SYSTEM Access](./system.png)
 
 ---
 
